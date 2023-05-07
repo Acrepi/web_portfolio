@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Michał Rymer - Portfolio</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="styles.css">
+		<script src="scripts.js"></script>
+	</head>
+  <body onload="loadItems()">
+		<div class="bodyHolder">
+			<!--
+			<div class="options">
+
+			</div>
+			-->
+			<div class="title">
+				Michał Rymer - Portfolio
+			</div>
+
+      <div id="itemsHolder">
+
+      </div>
+
+		</div>
+
+		<div id="bigImageShadow" onclick="closeBigImage()">
+			<div id="bigImageHolder" onclick="dontCloseBigImage(event)">
+				<div id="bigImageCarrouselHolder"></div>
+				<div class="bigImageButton bigArrowLeft" onclick="leftBigPicture()">◀</div>
+				<div class="bigImageButton bigArrowRight" onclick="rightBigPicture()">▶</div>
+				<div class="bigImageButton bigX" onclick="closeBigImage()">x</div>
+			</div>
+		</div>
+  </body>
+</html>
