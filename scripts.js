@@ -6,7 +6,7 @@ let itemsData = [
     shortname: "Hoshi",
     link: "https://acrepi.github.io/hoshi",
     desc: "Hoshi to strona internetowa pomagająca w porządkowaniu informacji o przedsprzedażach wykonywanych w różnych sklepach internetowych.<br> Pozwala ona na śledzenie oczekiwanych wydatków oraz ilości paczek.<br> Strona wykorzystuje mechanizm ciasteczek oraz localstorage.",
-    pictures: ["hoshi_logo.svg","hoshi_screen1.png","hoshi_screen2.png"],
+    pictures: ["hoshi_logo.svg","hoshi_screen1.PNG","hoshi_screen2.PNG"],
     color: "starOrange1"
   },
   {
@@ -22,7 +22,7 @@ let itemsData = [
     shortname: "StudioMuzyczneSzczecin",
     link: "https://www.studiomuzyczneszczecin.pl",
     desc: "Strona typu landing page zrobiona na zlecenie prywatnej szkoły muzycznej znajdującej się w Szczecinie. W niedalekiej przyszłości planowany jest rework<br> i odświerzenie wyglądu strony.",
-    pictures: ["sms_logo.png","sms_screen1.png","sms_screen2.png","sms_screen3.png","sms_screen4.png"],
+    pictures: ["sms_logo.png","sms_screen1.PNG","sms_screen2.PNG","sms_screen3.PNG","sms_screen4.PNG"],
     color: "musicGreen1"
   },
   {
