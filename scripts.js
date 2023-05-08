@@ -5,15 +5,15 @@ let itemsData = [
     name: "Hoshi",
     shortname: "Hoshi",
     link: "https://acrepi.github.io/hoshi",
-    desc: "Hoshi to strona internetowa pomagająca w porządkowaniu informacji o przedsprzedażach wykonywanych w różnych sklepach internetowych.<br> Pozwala ona na śledzenie oczekiwanych wydatków oraz ilości paczek.<br> Strona wykorzystuje mechanizm ciasteczek oraz localstorage.",
-    pictures: ["hoshi_logo.svg","hoshi_screen1.PNG","hoshi_screen2.PNG"],
+    desc: "Hoshi to strona internetowa pomagająca w porządkowaniu informacji o&nbsp;przedsprzedażach wykonywanych w&nbsp;różnych sklepach internetowych. Pozwala ona na śledzenie oczekiwanych wydatków oraz ilości paczek.<br> Strona wykorzystuje mechanizm ciasteczek oraz localstorage.",
+    pictures: ["hoshi_logo.svg","hoshi_screen1.png","hoshi_screen2.png"],
     color: "starOrange1"
   },
   {
     name: "Tski",
     shortname: "Tski",
     link: "",
-    desc: "Tski jest stroną do postowania, przeglądania, sortowania i filtrowania rysunków. Wykorzystywana ma być głównie do znajdywania inspiracji przy tworzeniu własnych dzieł artystycznych. Wykorzystywać będzie język PHP i JS oraz mechanizm AJAX.",
+    desc: "Tski jest stroną do postowania, przeglądania, sortowania i&nbsp;filtrowania rysunków. Wykorzystywana ma być głównie do znajdywania inspiracji przy tworzeniu własnych dzieł artystycznych. Wykorzystywać będzie język PHP i&nbsp;JS oraz mechanizm AJAX.",
     pictures: ["tski_logo.svg","tski_screen2.png","tski_screen3.png"],
     color: "moonBlue1"
   },
@@ -21,15 +21,15 @@ let itemsData = [
     name: "Studio Muzyczne Szczecin",
     shortname: "StudioMuzyczneSzczecin",
     link: "https://www.studiomuzyczneszczecin.pl",
-    desc: "Strona typu landing page zrobiona na zlecenie prywatnej szkoły muzycznej znajdującej się w Szczecinie. W niedalekiej przyszłości planowany jest rework<br> i odświerzenie wyglądu strony.",
-    pictures: ["sms_logo.png","sms_screen1.PNG","sms_screen2.PNG","sms_screen3.PNG","sms_screen4.PNG"],
+    desc: "Strona typu landing page zrobiona na zlecenie prywatnej szkoły muzycznej znajdującej się w&nbsp;Szczecinie. W niedalekiej przyszłości planowany jest rework i&nbsp;odświerzenie wyglądu strony.",
+    pictures: ["sms_logo.png","sms_screen1.png","sms_screen2.png","sms_screen3.png","sms_screen4.png"],
     color: "musicGreen1"
   },
   {
     name: "Projekt \"Village\"",
     shortname: "Village",
     link: "",
-    desc: "Gra przeglądarkowa wykorzystująca element Canvas oraz język JS, tworzona jako inżynieryjski projekt dyplomowy. Inspirowana jest innymi tytułami, takimi  jak Stardew Valley, Pokemon Red/Blue czy Forager. Możliwe będzie granie <br>w nią zarówno na komputerach jak i telefonach dotykowych.",
+    desc: "Gra przeglądarkowa wykorzystująca element Canvas oraz język JS, tworzona jako inżynieryjski projekt dyplomowy. Inspirowana jest innymi tytułami, takimi  jak Stardew Valley, Pokemon Red/Blue czy Forager. Możliwe będzie granie w&nbsp;nią zarówno na komputerach jak i&nbsp;telefonach dotykowych.",
     pictures: [],
     color: "gameRed1"
   },

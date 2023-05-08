@@ -316,3 +316,45 @@ hr{
 #bigImageHolder:hover .bigX{
   margin-top: -790px;
 }
+
+@media only screen and (max-width: 1200px) {
+  #bigImageHolder{
+    width: 100%;
+  }
+
+  .bigX{
+    margin-left: 0;
+    right: 9px;
+  }
+
+  .bigArrowRight{
+    margin-left: 0;
+    right: 9px;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  #bigImageHolder{
+    height: 100%;
+  }
+
+  .bigImageButton{
+    margin-top: 0;
+    top: calc(50% + 5px);
+  }
+
+  .bigX{
+    margin-top: 0;
+    top: 9px;
+  }
+
+  #bigImageHolder:hover .bigImageButton{
+    margin-top: 0;
+    top: calc(50% - 15px);
+  }
+
+  #bigImageHolder:hover .bigX{
+    margin-top: 0;
+    top: 9px;
+  }
+}
