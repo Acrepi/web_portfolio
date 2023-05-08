@@ -319,23 +319,23 @@ hr{
 
 @media only screen and (max-width: 1200px) {
   #bigImageHolder{
-    width: 100%;
+    width: calc(100% - 4px);
   }
 
   .bigX{
     margin-left: 0;
-    right: 9px;
+    right: 10px;
   }
 
   .bigArrowRight{
     margin-left: 0;
-    right: 9px;
+    right: 10px;
   }
 }
 
 @media only screen and (max-height: 800px) {
   #bigImageHolder{
-    height: 100%;
+    height: calc(100% - 4px);
   }
 
   .bigImageButton{
