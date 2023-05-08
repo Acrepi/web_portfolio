@@ -30,6 +30,7 @@ body{
   width: 900px;
   overflow-y: hidden;
   background-color: var(--moonGray1Dark);
+  min-width: 750px;
 }
 
 .options{
@@ -154,6 +155,13 @@ body{
   float: left;
   margin: 30px 10px;
   width: 600px;
+  overflow: hidden;
+}
+
+.textHolder{
+  float: left;
+  margin: 30px 10px;
+  width: calc(100% - 250px);
 }
 
 .item:nth-child(even) .textHolder{
@@ -226,6 +234,7 @@ hr{
   text-align: left;
   max-height: 80px;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .item:nth-child(even) .itemDesc{
@@ -317,7 +326,21 @@ hr{
   margin-top: -790px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px){
+  .bodyHolder{
+    width: 100%;
+  }
+
+  #itemsHolder{
+    width: 100%;
+  }
+
+  .item{
+    width: calc(100% - 50px);
+  }
+}
+
+@media only screen and (max-width: 1200px){
   #bigImageHolder{
     width: calc(100% - 4px);
   }
@@ -333,7 +356,7 @@ hr{
   }
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 800px){
   #bigImageHolder{
     height: calc(100% - 4px);
   }
