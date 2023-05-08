@@ -66,6 +66,7 @@ body{
   transition-duration: 0.3s;
   transition-timing-function: linear;
   color: var(--white1);
+  overflow: hidden;
 }
 
 .imageHolder{
@@ -223,6 +224,8 @@ hr{
   font-size: 17px;
   margin-top: 13px;
   text-align: left;
+  max-height: 80px;
+  overflow-y: auto;
 }
 
 .item:nth-child(even) .itemDesc{
