@@ -29,7 +29,7 @@ let itemsData = [
     name: "Projekt \"Village\"",
     shortname: "Village",
     link: "",
-    desc: "Gra przeglądarkowa wykorzystująca element Canvas oraz język JS, tworzona jako inżynieryjski projekt dyplomowy. Inspirowana jest innymi tytułami, takimi  jak Stardew Valley, Pokemon Red/Blue czy Forager. Możliwe będzie granie w&nbsp;nią zarówno na komputerach jak i&nbsp;telefonach dotykowych.",
+    desc: "Gra przeglądarkowa wykorzystująca element Canvas oraz język JS, tworzona jako inżynierski projekt dyplomowy. Inspirowana jest innymi tytułami, takimi  jak Stardew Valley, Pokemon Red/Blue czy Forager. Możliwe będzie granie w&nbsp;nią zarówno na komputerach jak i&nbsp;telefonach dotykowych.",
     pictures: [],
     color: "gameRed1"
   },
